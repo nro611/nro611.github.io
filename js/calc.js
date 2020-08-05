@@ -13,13 +13,13 @@ function calculate() {
             most = x[i];
         }
     }
-    maxPossibleCookies(s, e, f, x);
+    maxPossibleCookies(x);
     mostIngredients(x, most, sugar, egg, flour);
 }
 
 
 
-function maxPossibleCookies(s, e, f, x) {
+function maxPossibleCookies(x) {
     let maxAvailable = document.querySelector("span#max-available");
     let maxCookies = x[0];
     for (let i = 0; i < x.length; i++) {
@@ -67,5 +67,4 @@ function mostIngredients(x, most, sugar, egg, flour) {
         numFlour.innerHTML = flourNeeded;
         maxToUse.innerHTML = most;
     }
-
 }
