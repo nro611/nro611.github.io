@@ -1,14 +1,19 @@
 html {
     background-image: url(../img/cookie.jpg);
+    width: 100%;
+    height: 100;
 }
 
 body  {
     background-color: transparent !important;
     color: white !important;
-    ;
-}
+    background-size: cover !important;
+    width: 100vw;
+    height: 100vh;
+    background-position: center, center;
+    }
 .container {
-    margin-right: 0 !important;
+    margin-right: 20px !important;
     margin-top: 60px !important;
 }
 
